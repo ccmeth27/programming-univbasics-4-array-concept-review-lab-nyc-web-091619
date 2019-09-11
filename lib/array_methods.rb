@@ -5,7 +5,7 @@ valley = [5,4,3,2,1,0,1,2,3,4,5]
 zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
-    puts array.each_with_index(value_to_find)
+    p array.each_with_index(value_to_find)
 end
 p find_element_index(scale,2)
 p find_element_index(scale,4)
