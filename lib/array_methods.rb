@@ -6,7 +6,7 @@ zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
     p array.map{|value_to_find| 
-    array.each_with_index(value_to_find)
+    array.each_index(value_to_find)
   }
 end
 find_element_index(scale,2)
