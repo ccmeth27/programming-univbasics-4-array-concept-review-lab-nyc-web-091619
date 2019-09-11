@@ -9,13 +9,13 @@ def find_element_index(array, value_to_find)
     array.each_with_index.map(value_to_find)
   }
 end
-find_element_index(scale,2)
-find_element_index(scale,4)
-find_element_index(scale_2,5)
-find_element_index(scale_2,6)
-find_element_index(hill,500)
-find_element_index(valley,500)
-find_element_index(zig_zag,400)
+p find_element_index(scale,2)
+p find_element_index(scale,4)
+p find_element_index(scale_2,5)
+p find_element_index(scale_2,6)
+p find_element_index(hill,500)
+p find_element_index(valley,500)
+p find_element_index(zig_zag,400)
 
 def find_max_value(array)
   # Add your solution here
