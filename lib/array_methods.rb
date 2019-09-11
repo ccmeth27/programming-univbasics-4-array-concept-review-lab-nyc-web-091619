@@ -5,8 +5,8 @@ valley = [5,4,3,2,1,0,1,2,3,4,5]
 zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
-    p array.map{|value_to_find| 
-    array.each_index(value_to_find)
+    p array.size{|value_to_find| 
+    array.each_with_index.map(value_to_find)
   }
 end
 find_element_index(scale,2)
